@@ -3,7 +3,7 @@
           
  function submitForm(method) {
    // Create a new XMLHttpRequest object
-   const xhr  =  new XMLHttpRequest();
+   let xhr  =  new XMLHttpRequest();
    
    // Set the request method and endpoint
    xhr.open(method, 'https://httpbin.org/' + method.toLowerCase());
@@ -21,7 +21,7 @@
    };
    
    // Read the form data and send the request
-   const data  =  {
+   let data  =  {
      id: document.getElementById('id').value,
      article_name: document.getElementById('article_name').value,
      article_body: document.getElementById('article_body').value,
