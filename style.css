@@ -1,0 +1,184 @@
+
+*{
+    text-align: center;
+    /* border: solid 1px black; */
+    font-family: Gideon Roman, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+h1{
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: all 0.75s;
+    font-size:xx-large;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+p{
+  width:75%;
+  margin:0 auto;
+}
+
+header{
+
+  display:flex;
+
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+/* 
+img{
+  opacity: 0.6;
+  transition: all 1s;
+}
+img:hover{
+  opacity: 1.0;
+} */
+
+
+img {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: all 0.75s;
+}
+img:hover{
+  height:300px;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+birdSection {
+  margin:15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-grow:0.2;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul a{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+  
+
+  a {
+    color: #ff69b4;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  header {
+
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Add a border and background to the navigation links */
+  nav a {
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Add a hover effect to navigation links */
+  nav a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+
+
+
+  @media (max-width: 1000px) {
+
+
+
+    nav a {
+      border: 2px solid #fff;
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      margin: 5px;
+      border-radius: 15px;
+    }
+
+
+
+
+
+  li {
+    margin-top:40px;
+    
+  }
+
+
+ 
+  .headerbird{
+    display:none;
+  }
+
+  birdSection{
+    flex-direction: column;
+  }
+
+
+  }
+
+
+  footer{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+@media (max-width: 850px) {
+
+
+
+code{
+  font-size: 1em;
+  text-align: left;
+}
+
+
+
+  
+}
+  
+
+  
+  
+  
